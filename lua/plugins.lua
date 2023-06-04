@@ -32,6 +32,8 @@ use {
     'nvim-treesitter/nvim-treesitter',
     run = ':TSUpdate'
   }
+  use 'windwp/nvim-autopairs'
+  use 'windwp/nvim-ts-autotag'
   -- My plugins here
   -- use 'foo1/bar1.nvim'
   -- use 'foo2/bar2.nvim'
