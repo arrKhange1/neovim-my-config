@@ -34,6 +34,10 @@ use {
   }
   use 'windwp/nvim-autopairs'
   use 'windwp/nvim-ts-autotag'
+
+  use 'nvim-lua/plenary.nvim'
+  use 'nvim-telescope/telescope.nvim'
+  use 'nvim-telescope/telescope-file-browser.nvim'
   -- My plugins here
   -- use 'foo1/bar1.nvim'
   -- use 'foo2/bar2.nvim'
