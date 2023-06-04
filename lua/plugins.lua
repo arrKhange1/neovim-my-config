@@ -17,6 +17,10 @@ use {
   'nvim-lualine/lualine.nvim',
   requires = { 'nvim-tree/nvim-web-devicons', opt = true }
 }
+  use {
+    'svrana/neosolarized.nvim',
+    requires = { 'tjdevries/colorbuddy.nvim' }
+  }
   use {'neoclide/coc.nvim', branch = 'release'}
   use 'neovim/nvim-lspconfig'
   use 'L3MON4D3/LuaSnip'
